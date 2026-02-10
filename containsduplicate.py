@@ -6,7 +6,6 @@ def containsDuplicate(nums):
         seen.add(num)
     return False
 
-# Taking user input
 n = int(input("Enter number of elements: "))
 nums = list(map(int, input("Enter the elements separated by space: ").split()))
 
